@@ -413,6 +413,8 @@ class SupervisorTransport(xmlrpc.client.Transport):
     connection = None
 
     _use_datetime = 0 # python 2.5 fwd compatibility
+    _use_builtin_types = False
+
     def __init__(self, username=None, password=None, serverurl=None):
         self.username = username
         self.password = password
