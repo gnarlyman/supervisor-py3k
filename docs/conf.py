@@ -31,8 +31,7 @@ for item in os.listdir(parent):
     if item.endswith('.egg'):
         sys.path.append(os.path.join(parent, item))
 
-version_txt = os.path.join(parent, 'supervisor/version.txt')
-supervisor_version = open(version_txt).read().strip()
+supervisor_version = "who cares"
 
 # General configuration
 # ---------------------

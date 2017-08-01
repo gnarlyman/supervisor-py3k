@@ -51,8 +51,7 @@ from supervisor import states
 from supervisor import xmlrpc_lib
 
 mydir = os.path.abspath(os.path.dirname(__file__))
-version_txt = os.path.join(mydir, 'version.txt')
-VERSION = open(version_txt).read().strip()
+VERSION = "who cares"
 
 def normalize_path(v):
     return os.path.normpath(os.path.abspath(os.path.expanduser(v)))

@@ -52,8 +52,7 @@ CLASSIFIERS = [
     'Topic :: System :: Systems Administration',
     ]
 
-version_txt = os.path.join(here, 'supervisor/version.txt')
-supervisor_version = open(version_txt).read().strip()
+supervisor_version = "who cares"
 
 dist = setup(
     name = 'supervisor',
